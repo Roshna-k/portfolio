@@ -1,0 +1,86 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+.menu{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+}
+.links{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+
+}
+a{
+    /* to remove underline in text */
+    text-decoration: none;
+    /* to chane the text color of link */
+color:brown;
+text-shadow: 2px 2px 5px black;
+}
+/* pseudo classes -for applying mouse changes
+syntax: selector:pseudo-class{property:value;} */
+.links:hover{
+    font-size: 30px;
+    text-decoration: underline;
+}
+/* to change scrolling behaviour */
+html{
+    scroll-behavior: smooth;
+}
+#welcome{
+    background: linear-gradient(to bottom right,rgb(2, 14, 14),aqua,rgb(217, 217, 248));
+    color: darkblue;
+}
+.profile{
+    margin-top: 100px;
+    border-radius: 100px;
+}
+h1{
+font-size: 40px;
+font-weight: bold;
+font-family: 'Square Peg', cursive;}
+#name{
+    font-size: 50px;
+    line-height: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Square Peg', cursive;
+          padding-bottom: 20px;
+}
+#bio{
+    font-size: 20px;
+    padding: 50px;
+
+}
+.line{
+height: 6px;
+background-color: brown;
+width: 70px;
+margin: auto;
+}
+#writings a{
+    text-shadow: none;
+    text-decoration: underline;
+    color: blue;
+}
+#writings a:hover{
+    color: brown;
+}
+#contact iframe{
+width: 100%;
+}
+#contact a{
+    text-shadow: none;
+}
+.contact_1 h3{
+    display: inline;
+}
